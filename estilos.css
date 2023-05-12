@@ -1,5 +1,21 @@
-#footer-icons{
-    align-items: center;
+#footer-icons a{
+    text-decoration: none;
+    color: #555;
+}
+
+#footer-icons ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+#footer{
+    background-image: url(imagenes/foot.png);
+    background-size: cover;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 #portada{
@@ -7,16 +23,42 @@
     background-size: cover;
     height: 100vh;
     align-items: center;
+
+}
+
+#portada-2{
+    background-image: url(imagenes/bg2.png);
+    background-size: cover;
+    
+    align-items: center;
+}
+
+#portada-2-texto{
+    text-align: justify;
+    padding: 50px;
+    color: white;
 }
 
 #portada-img{
-    width: 600px;
-    margin-left: 40px;
+    width: 800px;
+    margin-left: 250px;
+}
+
+#portada-img-2{
+    width: 800px;
+    margin-right: 250px;
+    margin-top: 130px;
 }
 
 #portada-texto{
+    color: white;
     margin: 40px;
     padding: 20px;
+}
+
+#portada-texto-2{
+    color: white;
+    margin-left: 250px;
 }
 
 #register{
