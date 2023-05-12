@@ -1,3 +1,11 @@
+#formulario{
+    background-color: rgba(0, 0, 0, 0.479);
+    max-width: 50%;
+    display: block;
+    margin: 100px;
+    padding: 50px;
+    color: white;
+}
 
 #portada{
     background-image: url(imagenes/background.png);
@@ -16,10 +24,26 @@
     padding: 20px;
 }
 
-.top-nav-collapse{
-    background-color: black !important;
+#register{
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
 }
+
 
 .transparencia{
     background-color: rgba(0, 0, 0, 0.336);
+}
+
+
+
+
+
+
+
+
+
+
+.top-nav-collapse{
+    background-color: black !important;
 }
