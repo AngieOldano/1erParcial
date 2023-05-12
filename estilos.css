@@ -1,10 +1,5 @@
-#formulario{
-    background-color: rgba(0, 0, 0, 0.479);
-    max-width: 50%;
-    display: block;
-    margin: 100px;
-    padding: 50px;
-    color: white;
+#footer-icons{
+    align-items: center;
 }
 
 #portada{
@@ -25,11 +20,31 @@
 }
 
 #register{
+    background-image: url(imagenes/background.png);
+    background-size: cover;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
-    margin: 100px;
 }
 
+
+#register-img{
+    width: 500px;
+}
+
+#register-formulario{
+    background-color: rgba(0, 0, 0, 0.479);
+    max-width: 50%;
+    display: block;
+    margin: 100px;
+    padding: 50px;
+    color: white;
+}
+
+#register-picture{
+    display: flex;
+    justify-content: center; 
+    margin: 100px;  
+}
 
 .transparencia{
     background-color: rgba(0, 0, 0, 0.336);
