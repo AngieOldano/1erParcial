@@ -18,29 +18,9 @@
 }
 
 #footer{
-    background-image: url(imagenes/foot.png);
-    background-size: cover;
+    background-color: rgb(143, 113, 155);
     padding: 50px;
-}
-
-#footer-derechos{
-    margin-top: 50px;
-}
-
-#footer-icons{
-    display:flex;
-    justify-content: end;
-}
-
-#footer-icons a{
-    text-decoration: none;
-    color: #555;
-}
-
-#footer-icons ul li{
-    display: inline-block;
-    margin-top: 50px;
-    margin-right: 100px;
+    color: rgb(88, 81, 85);
 }
 
 #header-icons ul li{
