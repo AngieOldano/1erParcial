@@ -15,10 +15,9 @@
     color: #555;
 }
 
-#footer-icons ul li{
+#header-icons ul li{
     display: inline-block;
-    margin-right: 30px;
-    margin-top: 40px;
+    margin-right: 100px;
 }
 
 #footer{
@@ -28,6 +27,21 @@
     text-align: center;
     justify-content: center;
     display: flex;
+    height: 100px;
+}
+
+#footer-icons ul li{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+#online-education-claro{
+    color: white;
+}
+
+#enjoy-learning-claro{
+    color: white;
 }
 
 #portada{
@@ -49,7 +63,7 @@
     margin: 100px;
 }
 
-#portada-article-blanco{
+#portada-article-claro{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 100px;
