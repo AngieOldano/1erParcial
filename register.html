@@ -13,14 +13,9 @@
 <body>
     
     <head>
-        <nav class="navbar navbar-expand-lg navbar-dark transparencia fixed-top" id="header-icons">
+        <nav class="navbar navbar-expand-lg navbar-dark transparency fixed-top" id="header-icons">
             <div class="container-fluid" >
               <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
-                <button type="button" class="btn btn-secondary" onclick="cambiarModo()">
-                    <svg id="modo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
-                        <path id="path" d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
-                    </svg>
-                </button>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="https://www.facebook.com/Virbela/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
@@ -42,9 +37,9 @@
     
     <main>
         <div class="container-fluid" id="register">
-            <div id="contenedor-registro">
+            <div  id="container-register">
                 <div class="row">
-                    <div class="col-4"  id="register-formulario">
+                    <div class="col-4 rounded-5"  id="register-form">
                         <h1>Register Now</h1>
                         <h3>Fill out the form below to register.</h3>
                         <div >
@@ -70,8 +65,8 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div id="register-img">
-                            <img id="" src="imagenes/register.png" alt="">
+                        <div id="register-picture">
+                            <img src="imagenes/register.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -79,37 +74,44 @@
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="container-fluid" id="footer">
+    <footer class="footer px-4 py-3 bg-secondary text-white">
+        <div class="container-fluid" >
           <div class="row">
-            <div class="col-md-4">
-              <h3>Encuéntranos</h3>
-              <div id="map">
-                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168352.28869392542!2d-122.75664962894689!3d48.753161084535144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485962ef2458717%3A0xd57a9ca9cd39e0f0!2sBellingham%2C%20Washington%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1683939919432!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+            <div class="col-md-4 d-flex justify-content-start align-items-end">
+                <div>
+                    <h4>Find Us</h4>
+                    <div>
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2630.666331574335!2d-122.48267161875795!3d48.750070307927146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485962ef2458717%3A0xd57a9ca9cd39e0f0!2sBellingham%2C%20Washington%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1684029913570!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>Contact us</h3>
-                <h5>Want to talk to Sales?</h5>
-                <h6>1 (844) 714-4210</h6>
-                <h5>Need Support?</h5>
-                <h6>Visit our Knowledge Base</h6>
-                <h5>Email</h5>
-                <h6>media@virbela.com</h6>
+            <div class="col-md-5 d-flex justify-content-center align-items-center">
+                <div class="">
+                    <h3>Contact us</h3>
+                    <h5>Want to talk?</h5>
+                    <h6>1(844) 674-2109</h6>
+                    <h5>Email</h5>
+                    <h6>media@elearnhub.com</h6>
+                    <h5>Address</h5>
+                    <h6>1318 Cornwall Ave, Bellingham</h6>
+                </div>
             </div>
-            <div class="col-md-4">
-              <h3>SOCIAL MEDIA LINKS</h3>
-              <ul class="list-inline ">
-                <li class="list-inline-item"><a href="https://www.facebook.com/Virbela/"><i class="fa-brands fa-facebook fa-4x"></i></a></li>
-                <li class="list-inline-item"><a href="https://twitter.com/VirbelaHQ"><i class="fa-brands fa-twitter fa-4x"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.linkedin.com/company/virbela/"><i class="fa-brands fa-linkedin fa-4x"></i></a></li>
-              </ul>
-            </div>
+            <div class="col-md-3 d-flex justify-content-end align-items-end">
+                <div>
+                    <h4>Social Media Links</h4>
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><a href="https://www.facebook.com/Virbela/"><i class="fa-brands fa-facebook fa-4x text-white"></i></a></li>
+                      <li class="list-inline-item"><a href="https://twitter.com/VirbelaHQ"><i class="fa-brands fa-twitter fa-4x text-white"></i></a></li>
+                      <li class="list-inline-item"><a href="https://www.linkedin.com/company/virbela/"><i class="fa-brands fa-linkedin fa-4x text-white"></i></a></li>
+                  </ul>
+                </div>
           </div>
           <div class="row">
-            <div class="col-md-12 text-center">
-              <a href="index.html"><i class="fas fa-home fa-beat fa-2x"></i></a>
-              <p>Privacy Rights Request © 2023 Virbela. All rights reserved.</p>
+            <div class="col">
+              <div class="text-center">
+                <a href="index.html" class="d-flex justify-content-center"><i class="fas fa-home fa-beat fa-2x text-white"></i></a>
+                <p class="d-flex justify-content-end">Privacy Rights Request © 2023 Virbela. All rights reserved.</p>
+            </div>
             </div>
           </div>
         </div>
