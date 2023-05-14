@@ -8,7 +8,6 @@
 #container-register{
     display: flex;
     justify-content:center;
-    padding-top: 100px;
 }
 
 #footer{
@@ -27,11 +26,11 @@
     height: 250px;
 }
 
-.modo-oscuro{
+.mode-dark{
     color: rgb(255, 255, 255);
 }
 
-.modo-claro{
+.mode-light{
     color: rgb(0, 0, 0);
 }
 
@@ -45,7 +44,6 @@
 
 #register-form{
     background-color: rgba(0, 0, 0, 0.479);
-    max-width: 50%;
     display: block;
     margin: 100px;
     padding: 50px;
